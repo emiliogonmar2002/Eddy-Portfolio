@@ -34,7 +34,7 @@ h1 {
 }
 
 #description {
-    padding: 100px 0;
+    padding: 50px 0;
 
 }
 
@@ -49,9 +49,19 @@ h1 {
 }
 
 .secundary-container {
+    padding: 50px 0;
+}
+
+.card-container {
     display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
 }
 
 .secundary-container img {
     width: 100px;
+}
+
+.card {
+    text-align: center;
 }
