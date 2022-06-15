@@ -16,8 +16,11 @@ p {
     margin: 0;
     padding: 15px 0;
     width: 100%;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.9);
     color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .options {
@@ -39,19 +42,22 @@ p {
 header {
     display: flex;
     justify-content: space-around;
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 header img {
-    border-radius: 45%;
+    height: 450px;
+    width: 450px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+header h1 {
+    font-size: 50px;
 }
 
 h1 {
     margin: 0;
-}
-
-#picture {
-    height: 500px;
 }
 
 #bio {
@@ -114,6 +120,14 @@ h1 {
 }
 
 .card:hover {
-    background-color: rgb(243, 241, 241);
-    text-decoration: underline;
+    /* background-color: rgb(243, 241, 241); */
+    /* text-decoration: underline; */
+}
+
+.card:hover img {
+    filter: drop-shadow(5px 5px 5px rgb(227, 226, 226));
+}
+
+.card:hover p, .card:hover h3 {
+    filter: drop-shadow(5px 5px 3px rgb(207, 207, 207));
 }
