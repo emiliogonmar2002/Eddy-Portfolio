@@ -119,11 +119,6 @@ h1 {
     cursor: pointer;
 }
 
-.card:hover {
-    /* background-color: rgb(243, 241, 241); */
-    /* text-decoration: underline; */
-}
-
 .card:hover img {
     filter: drop-shadow(5px 5px 5px rgb(227, 226, 226));
 }
