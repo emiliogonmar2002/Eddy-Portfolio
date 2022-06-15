@@ -7,8 +7,14 @@ hr {
     width: 75%;
 }
 
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 100;
+}
+
 .top-bar {
     margin: 0;
+    padding: 15px 0;
     width: 100%;
     background-color: black;
     color: white;
@@ -89,6 +95,25 @@ h1 {
 }
 
 .card {
+    width: 300px;
     text-align: center;
     margin: 10px;
+    padding: 10px 50px;
+    border-radius: 5%;
+}
+
+.menu-option p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.button:hover {
+    text-decoration: underline;
+    background-color: rgb(6, 128, 250);
+    cursor: pointer;
+}
+
+.card:hover {
+    background-color: rgb(243, 241, 241);
+    text-decoration: underline;
 }
